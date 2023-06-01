@@ -19,7 +19,6 @@ const NoteList = (props) => {
     return (
         <div style={{
             marginTop: "20px",
-            // border: "2px solid red",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -29,7 +28,6 @@ const NoteList = (props) => {
                 display: "flex",
                 flexDirection: "note",
                 justifyContent: "space-between",
-                // border: "2px solid red",
                 width: "700px",
                 height: "50px",
                 alignItems: "center"

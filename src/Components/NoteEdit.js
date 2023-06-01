@@ -17,7 +17,7 @@ const NoteEdit = (props) => {
         setInputDescription
     } = props
     const { title } = useParams()
-    console.log("title =", title)
+    // console.log("title =", title)
     useEffect(() => {
         setInputTitle(title)
         const description = notes.find(note => note?.title === title)?.description
